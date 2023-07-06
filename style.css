@@ -34,7 +34,7 @@
 }
 
 .banner_img img {
-    width: 20rem;
+    width: 19rem;
 }
 
 .banner_section {
@@ -68,4 +68,31 @@
     border-radius: 5px;
     box-shadow: 0px 0px 15px 3px white;
     font-weight: bold;
+}
+
+
+.about_body {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    flex-direction: row-reverse;
+}
+
+.about_section h1{
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.about_img img {
+    width: 19rem;
+}
+
+.about_text h3 {
+    font-size: 27px;
+    margin-bottom: 1rem;
+}
+
+.about_text p {
+    font-size: 1.2em;
+    margin-bottom: .6rem;
 }
