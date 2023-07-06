@@ -106,6 +106,8 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .box {
@@ -134,4 +136,56 @@
 
 .box h2 {
     margin: .5rem 0;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 10rem;
+}
+
+.section_part {
+    width: 10rem;
+}
+
+.section_part_tow {
+    width: 15.9rem;
+}
+
+.footer_section li {
+    list-style: none;
+}
+
+.footer_icon {
+    width: 10rem;
+}
+
+.footer_description {
+    line-height: 1.8rem;
+}
+
+footer {
+    background-color: #66dba6;
+}
+
+.footer_title {
+    margin-bottom: 2.5rem;
+}
+
+.links {
+    margin-bottom: .5rem;
+}
+
+footer .copy_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copy_right hr{
+    width: 80%;
+}
+
+.copy_right small {
+    padding: 1.5rem 0;
 }
